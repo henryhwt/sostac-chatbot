@@ -15,7 +15,7 @@ from utils import *
 st.subheader("SOSTAC ChatBot")
 
 if 'responses' not in st.session_state:
-    st.session_state['responses'] = ["How can I assist you?"]
+    st.session_state['responses'] = ["Ask me about SOSTAC"]
 
 if 'requests' not in st.session_state:
     st.session_state['requests'] = []
